@@ -1,0 +1,45 @@
+p{
+    font-weight: bold;
+    text-align: left;
+    color: white;
+    background-color: black !important;
+    opacity: 1;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-2/soccer.jpeg");
+    background-size: cover;
+    background-position: right;
+    height: 100px;
+    width: 200px;
+}
+.test p{
+    background-color: white;
+}
+.list li{
+    list-style: square;
+}
+/*CSS declarations are structured into property and value pairs.
+ (Color/text-weight is property and black is value)
+The font-family property defines the typeface of an element.
+font-size controls the size of text displayed.
+
+font-weight defines how thin or thick text is displayed.
+
+The text-align property places text in the left, right, or center of its parent container.
+
+Text can have two different color attributes: color and background-color. color defines 
+the color of the text, while background-color defines the color behind the text.
+
+CSS can make an element transparent with the opacity property.
+CSS can also set the background of an element to an image with the background-image property.
+The !important flag will override any style, however it should almost never be used,
+ as it is extremely difficult to override.CSS declarations are structured into property and value pairs.
+
+The font-family property defines the typeface of an element.
+font-size controls the size of text displayed.
+font-weight defines how thin or thick text is displayed.
+The text-align property places text in the left, right, or center of its parent container.
+Text can have two different color attributes: color and background-color. 
+color defines the color of the text, while background-color defines the color behind the text.
+
+CSS can make an element transparent with the opacity property.
+CSS can also set the background of an element to an image with the background-image property.
+The !important flag will override any style, however it should almost never be used, as it is extremely difficult to override.

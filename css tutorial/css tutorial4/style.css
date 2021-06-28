@@ -1,0 +1,25 @@
+/* This lesson basically focuses on the fact that the box model has
+a limitation that could be awkward */ 
+/* We can fix the padding and border thickness to be included 
+inside the box and set the height and width to be remain fixed */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+p { 
+ border: 1px solid black;
+ height: 200px;
+ width: 300px;
+ line-height: 200px;
+ margin: 0px auto;
+ text-align: center;
+
+}
+/* So now the dimension will stay 200 by 300 and not 222 by 322 */
+/*In the default box model, box dimensions are affected by border thickness and padding.
+The box-sizing property controls the box model used by the browser.
+The default value of the box-sizing property is content-box.
+The value for the new box model is border-box.
+The border-box model is not affected by border thickness or padding. */

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--Translating Human language to computer language-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Allows the website to be view in any device: sets width to device width and the intial
+    sets the zoom of the website to not zoomed in or out-->
+    <title>Document</title>
+</head>
+<body>
+    <h1>Remember to do !tab for the basic setup</h1>
+    <div>
+        <p style="color:darkblue;"><b>Use div to seperate divide the topics</b></p>
+        <p>p for small paragraphs and span idk <span>dj</span>
+        </p>
+        <p>Also line breaks like this.<br> Yes.
+        </p>
+        <p>also the heading number relates to the size of the letters in a heading
+        </p>
+        <small>HEY IM SMALL</small>
+    </div>
+    <div>
+        <h2>Lists</h2>
+        <p>There are also unorganized list known as ul which creates a list with bullet points and needs a li after it.<br> kinda like this
+           <ul>
+               <li><a href="#visuals now">Visuals Now</a></li>
+               <li><a href="#videos">Videos</a></li>
+               <li><a href="#youtube">Youtube</a></li>
+            </ul> 
+          <!-- make sure the id matches the anchor your anchoring to the list and also the id is case sensitive-->
+        <p>
+            Now to ordered lists: each element has a number next to it unlike an unorganized list
+        </p>
+        <ol>
+            <li>dog</li>
+            <li>cat</li>
+            <li>fish</li>
+        </ol>
+    </div>
+        <h1>Visuals Now</h1>
+    <div id="visuals now">
+        <!-- look at id-->
+        <p>
+           <a href ="https://en.wikipedia.org/wiki/Ace_Attorney" target="_blank">
+            <img src='c.jpg' width='320' height="240"  /> Most images need to be in the same folder location as the html file</a>
+            <!--Img doesn't need a closing tag-->
+            <br><br>
+            Now there is the alt attribute which is like a caption to a photo for visually impaired users and if there's no photo
+            <br>
+            <img src="CT_PCver_1680_1050.jpg" alt='Failed image rip' /><br><br>
+        </p>    
+    </div>
+    <div>
+        <h2 id="videos">Videos</h2>
+            <p>
+            Also you can put videos into the website too and unlike the img tag it needs an opening and closing tag<br>
+            <video src='https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4'
+            width='320' height='240' controls>
+            Video is not supported
+            </video><br>
+            The sentence 'video is not supported' is when the video cannot load and also controls is so that
+            the video has basic features like pause,play,skip. And the measurements should be self explanatory.<br><br>
+            <p>
+    </div> 
+         
+    <div>
+         <h1 id="youtube">Youtube</h1>
+             <p>
+            <iframe width="420" height="315" src="https://www.youtube.com/embed/7Bvp75M0ezY?autoplay=1&loop=1&mute=1"></iframe>
+            </iframe><br><br>
+            An iframe is basically it's a section of your webpage looking at another piece of another content you
+            want to embededd and to display 3rd party content. Make sure to use the link https://www.youtube.com/embed
+            and the id code.<br><br>
+            Add ?autoplay=1&mute=1 if you want the video to autoplay but be muted.<br>
+            You can also add loop=1 to loop forever and controls=0 to make the regular player controls to disappear and the controls are set to 1 by default.<br>
+            </p>
+    </div>
+</body>
+<!--HTML stands for HyperText Markup Language and is used to create the structure and content of a webpage.
+Most HTML elements contain opening and closing tags with raw text or other HTML tags between them.
+HTML elements can be nested inside other elements. The enclosed element is the child of the enclosing parent element.
+Any visible content should be placed within the opening and closing <body> tags.
+Headings and sub-headings, <h1> to <h6> tags, are used to enlarge text.
+<p>, <span> and <div> tags specify text or blocks.
+The <em> and <strong> tags are used to emphasize text.
+Line breaks are created with the <br> tag.
+Ordered lists (<ol>) are numbered and unordered lists (<ul>) are bulleted.
+Images (<img>) and videos (<video>) can be added by linking to an existing source.-->
+        
+    </div>
+</body>
+</html>

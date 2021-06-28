@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Raymond</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato: 100,300,400,700|Luckiest+Guy|Oxygen:300,400" rel="stylesheet">
+  <link href="style.css" type="text/css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <ul class="navigation">
+        <li><img src="https://content.codecademy.com/courses/web-101/unit-9/htmlcss1-img_logo-shiptoit.png" height="20px;"></li>
+        <li class="active">Action List</li>
+        <li>Profiles</li>
+        <li>Settings</li>
+      </ul>
+    
+      <div class="search">Search the table</div>
+      <table>
+        <thead>
+        <tr>  
+        <table>
+            <tr>
+                <th scope="col">Animal Type</th>
+                <th scope="col">pets</th>
+                <th scope="col">Random</th>
+                <th scope="col">Dog</th>
+                <th scope="col">Dog</th>
+                <!--scope just tells people what the value of the heading is and isn't really necessary-->
+            </tr>
+            <tr>
+                <th scope="row">WOW</th>
+                <td colspan="2">Randos</td>
+                <td>Dog</td>
+                <td>CAM</td>
+            </tr>
+        </table>
+        <!--You can also use colspan="" amount of coloumns you want to expand(spans right)-->
+        <table>
+         <thead>
+             <tr> <!-- Row 1 -->
+              <th></th>
+              <th>Saturday</th>
+              <th>Sunday</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr> <!-- Row 2 -->
+              <th>Morning</th>
+              <td rowspan="2">Work</td>
+              <td rowspan="3">Relax</td>
+            </tr>
+            <tr> <!-- Row 3 -->
+              <th>Afternoon</th>
+            </tr>
+            <tr> <!-- Row 4 -->
+              <th>Evening</th>
+              <td>Dinner</td>
+            </tr>
+            <tfoot>
+                <th>Total</td>
+                <td>69</td>
+            </tfoot>
+         </tbody>
+            <!--Rowspan spans down(so relax spans to all three-->
+            <!--Also there's <tbody> which can section off tables-->
+            <!--<thead> element sections off the head or the colomun headings. Only works with scope="colomun"-->
+            <!--tfoot is for the last section-->
+            
+ <!--The <table> element creates a table.
+The <tr> element adds rows to a table.
+To add data to a row, you can use the <td> element.
+Table headings clarify the meaning of data. Headings are added with the <th> element.
+Table data can span columns using the colspan attribute.
+Table data can span rows using the rowspan attribute.
+Tables can be split into three main sections: a head, a body, and a footer.
+A table’s head is created with the <thead> element.
+A table’s body is created with the <tbody> element.
+A table’s footer is created with the <tfoot> element.-->
+          </table>
+    </div>
+    <h2></h2>
+    <h3></h3>
+</body>
+</html>

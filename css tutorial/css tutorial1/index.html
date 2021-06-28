@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./index.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <main>
+    <section>
+        <article>
+            <p style="font-family: Arial;">Bruh</p>
+            <p style="color: wheat;">Bruh</p>
+        </article>
+        <!--Technically you can use the <style> tag to do the same thing as in css in html but
+            that's kinda a hassle-->
+            <style>
+                h1{
+                    font-family:Georgia ;
+                    font-size: 20px;
+                }
+            </style>
+            <h1>Hey</h1>
+    </section>
+    <!--You can also set a certain element using the class attribute and we can use that
+    to select it in css using .(class name)-->
+    <!--Also the class attribute overides the normal selector (ex:h1, h2, etc)-->
+    
+    <section>
+        <article>
+        <p class="test">
+            Hey
+        </p>
+        </article>
+        <aside class="test uppercase" id="test2">
+            You can also add more than one class name to an element. just add a space in between.
+        </aside>
+        <!--The id overides the class and the id needs a # before it's value in css.-->
+        <!--so basically tag<class<id. so use a tag class mostly then class and finally id if there's no other
+        options. We don't want the code to look too messy-->
+    </section>
+    <!-- so ideally we want this -->
+    <section>
+        <article>
+            <p class="capitalize arial cursive">Hey</p>
+            <!--if the style changes are on specific aspect then it will style the words in the code
+            that executes last so the order of the class doesn't matter.-->
+            <!--You can also target two or more css selectors and the element has to include
+            both the tags/classes/ids-->
+            <br>
+            <p class="darkblue">
+                Hey
+            </p>
+        </article>
+    </section>
+<!--The selectors can also select elements inside other html elements-->
+<article>
+    <div class="no">
+        <h5>Hey</h5>
+    </div>
+    <section class="testing"><p>
+        Hey
+    </p></section>
+<!--Inline style is adding a style attribute with a color/text-transform/etc attribute 
+basically it allows you to do what you do in Css in html-->
+<!--Style tag let's you write css code in an html file-->
+
+    </ul>
+</article>
+    </main>
+</body>
+</html>
+
+<!-- C:\Users\User\Desktop\Hw Folder\Codeacademy\css tutorial\css tutorial1\index.html -->
