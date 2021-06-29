@@ -1,0 +1,97 @@
+/*
+Colors in CSS can be described in three different ways:
+
+Named colors — English words that describe colors, also called keyword colors
+RGB — numeric values that describe a mix of red, green, and blue
+HSL — numeric values that describe a mix of hue, saturation, and lightness 
+*/
+
+ /*
+ Color can affect the following design aspects:
+
+The foreground color
+The background color
+*/
+
+p{
+    color: red;
+    background-color: orange;
+}
+
+/* 
+One syntax that we can use to specify colors is called hexadecimal. 
+Colors specified using this system are called hex colors. A hex color begins with a hash character (#) 
+which is followed by three or six characters. The characters represent values for red, blue and green.
+*/
+p{
+    color: #00FF
+}
+/*
+Another one is the rgb Here, each of the three values represents
+ a color component, and each can have a decimal number value from 0 to 255. 
+ The first number represents the amount of red, the second is green, and the third is blue.
+  These colors are exactly the same as hex, but with a different syntax and a different number system.
+  */
+p{
+    color: rgb(23, 60, 50)
+}
+/*
+The RGB color scheme is convenient because it’s very close to
+ how computers represent colors internally. 
+ There’s another equally powerful system in CSS called the hue-saturation-lightness color scheme, 
+ abbreviated as HSL.
+ */
+ p{
+    color: hsl(120, 60%, 70%);
+ }
+ /* The first number represents the degree of the hue, and can be between 0 and 360. The second 
+ and third numbers are percentages representing saturation and lightness respectively. Here is an example:
+*/
+
+/* Hue is the first number. It refers to an angle on a color wheel. Red is 0 degrees, Green is 120 degrees,
+ Blue is 240 degrees, and then back to Red at 360. You can see an example of a color wheel below:
+ */
+
+ /*
+ . When we overlap two opaque elements, 
+ nothing from the bottom element shows through the top element. 
+ In this exercise, we’ll change the opacity
+ */
+ P{
+    color: hsla(34, 100%, 50%, 0.1);
+ }
+ /* Alpha is a decimal number from zero to one. If alpha is zero,
+  the color will be completely transparent. 
+  Alpha is the last value */
+
+p{
+    color: rgba(234, 45, 98, 0.33);
+}
+/* It can also be added to rgb but can't be added with the regular old color */
+/* But you can just do */
+p{
+    color: transparent;
+}
+/*
+Named colors — there are 147 named colors, which you can review here.
+
+Hexadecimal or hex colors
+
+Hexadecimal is a number system with has sixteen digits, 0 to 9 followed by “A” to “F”.
+Hex values always begin with # and specify values of red, blue and 
+green using hexademical numbers such as #23F41A.
+RGB
+
+RGB colors use the rgb() syntax with one value for red, one value for blue and one value for green.
+RGB values range from 0 to 255 and look like this: rgb(7, 210, 50).
+HSL
+
+HSL stands for hue (the color itself), saturation (the intensity of the color), 
+and lightness (how light or dark a color is).
+Hue ranges from 0 to 360 and saturation and lightness are both represented as
+ percentages like this: hsl(200, 20%, 50%).
+You can add opacity to color in RGB and HSL by adding a fourth value, a, 
+which is represented as a percentage.
+*/
+
+/* i'll probably learn this later when I have more time */

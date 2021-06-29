@@ -1,0 +1,106 @@
+p{
+    position: static;
+}
+/* This is the default position of an element */
+#hey{
+    position: relative;
+    top: 20px;
+}
+/* This is the position relative to the default position of an element which in this case is
+20px above the default positon */
+
+/* Top moves the element down and bottom moves it up, this is the same for right and left which
+move the elements the same as top and bottom */
+p{
+    position: absolute;
+    top: 20px;
+}
+/* Absolute makes it so that the other elements in the page will ignore the element and
+act like it isn't even present. This can result in overlays */
+p{
+    position: fixed;
+}
+/* When the position is fixed the element will follow the user whenever the user scrolls down */
+p{
+    z-index: 10 ;
+}
+    /* The z-index The z-index property controls how far “back” or how far “forward” an element
+    should appear on the web page when elements overlap. 
+    This can be thought of the depth of elements, with deeper elements appearing behind shallower elements.
+    The z-index property accepts integer values. Depending on their values, the integers 
+    instruct the browser on the order in which elements should be displayed on the web page.
+    The z-index also cannot be used when the element is static */
+
+p{
+    display: inline;
+}
+/* For display values this lesson teaches us three: inline, block, and inline-block
+The default display for some tags, such as <em>, <strong>, and <a>, is called inline. 
+Inline elements have a box that wraps tightly around their content, only taking up the
+ amount of space necessary to display their content and not requiring a new line after each element.
+ This means that you can't change the width and heigh of an inline element */
+ /* You can set the display for elements that aren't even that type of element */
+
+ p{
+     display: block;
+ }
+ /* Some elements are not displayed in the same line as the content 
+ around them. These are called block-level elements.  These elements fill the entire width of 
+ the page by default, but their width property can also be set. 
+ Unless otherwise specified, they are the height necessary to accommodate their content. 
+ ex: p, h1-h6*/
+
+ p{
+     display: inline-block;
+ }
+ /* Inline block have the set height and width property of a block with the inline property
+ of being in the same line as other elements. I reccomend using them when you are trying to 
+ make a horizontal navigation bar. The most common inline block is an image */
+
+ p{
+     float: left;
+ }
+
+/* You can use the float property to move an element far right or as far left as possible
+the vaule of float can be right or left. Only works with static and relative. Floated elements
+should have a width set or the element will assume the full width of its containing element */
+
+/* The float property can also be used to float multiple elements at once. However,
+ when multiple floated elements have different heights, it can affect their layout on the page. Specifically, 
+elements can “bump” into each other and not allow other elements to properly move to the left or right.
+You can use the clear property to specify how elements should behave when they bump into each 
+other */
+
+p{
+    clear: both;
+}
+/*left — the left side of the element will not touch any other element within the same containing element
+ right — the right side of the element will not touch any other element within the same containing element.
+both — neither side of the element will touch any other element within the same containing element.
+none — the element can touch either side. */
+
+/*The position property allows you to specify the position of an element in three different ways.
+When set to relative, an element’s position is relative to its default position on the page.
+When set to absolute, an element’s position is relative to its closest positioned parent element. 
+It can be pinned to any part of the web page, but the element will still move with the rest of 
+the document when the page is scrolled.
+
+When set to fixed, an element’s position can be pinned to any part of the web page. 
+The element will remain in view no matter what.
+The z-index of an element specifies how far back or how far forward an element appears 
+on the page when it overlaps other elements.
+
+The display property allows you control how an element flows vertically and horizontally a document.
+inline elements take up as little space as possible, and they cannot have manually-adjusted width or height.
+block elements take up the width of their container and can have manually-adjusted heights.
+inline-block elements can have set width and height, but they can also appear next to
+ each other and do not take up their entire container width.
+
+The float property can move elements as far left or as far right as possible on a web page.
+You can clear an element’s left or right side (or both) using the clear property.
+When combined with an understanding of the box model, positioning can create visually 
+appealing web pages. So far, we’ve focused on adding content in the form of text to a web page.
+ In the next unit, you’ll learn how to add and manipulate images to a web page.*/
+p {
+    left: 10;
+}
